@@ -115,7 +115,7 @@ module.exports = class View {
    * Navigates to author website in systems default browser.
    */
   showWebsite() {
-    require('electron').shell.openExternal('https://codef0x.dev');
+    require('electron').shell.openExternal('https://profection.software');
   }
 
   /**

@@ -12,7 +12,7 @@ class PermissionCheck {
 
     const not = new Notification('Enable keyboard shortcuts', {
       body:
-        'Please add Violin as a trusted client, then click on this message or restart Violin.'
+        'Please add JamBox as a trusted client, then click on this message or restart JamBox.'
     });
     not.onclick = () => {
       app.relaunch();

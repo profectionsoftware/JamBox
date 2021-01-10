@@ -1,9 +1,9 @@
 {
-  "name": "violin-player",
-  "productName": "Violin",
-  "version": "3.1.1",
-  "description": "A fast, lightweight, and minimalistic desktop music player.",
-  "homepage": "https://violin-player.cc/",
+  "name": "jambox-player",
+  "productName": "JamBox",
+  "version": "1.0.0",
+  "description": "a fast, lightweight, and minimalistic desktop music player.",
+  "homepage": "https://profection.software/jambox",
   "keywords": [
     "lightweight",
     "cross-platform",
@@ -14,21 +14,21 @@
     "audio"
   ],
   "author": {
-    "name": "Tobias \"CodeF0x\" Oettl",
-    "email": "contact@codef0x.dev",
-    "url": "https://codef0x.dev"
+    "name": "profection.software",
+    "email": "profectionsoftware@septonia.de",
+    "url": "https://profection.software"
   },
-  "license": "MIT",
+  "license": "GNU GPLv3",
   "scripts": {
     "start": "electron .",
     "ship": "electron-builder"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeF0x/violin.git"
+    "url": "git+https://github.com/profectionsoftware/jambox.git"
   },
   "bugs": {
-    "url": "https://github.com/CodeF0x/violin/issues"
+    "url": "https://github.com/profectionsoftware/jambox/issues"
   },
   "main": "main.js",
   "devDependencies": {
