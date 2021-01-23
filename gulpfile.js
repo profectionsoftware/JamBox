@@ -47,5 +47,29 @@ gulp.task('build', cb => {
   });
 });
 
+gulp.task('windows', cb => {
+  exec('electron-builder --win', (error, stdout, stderr) => {
+    console.log(stdout);
+    console.log(stderr);
+    cb(error);
+  });
+});
+
+gulp.task('linux', cb => {
+  exec('electron-builder --linux', (error, stdout, stderr) => {
+    console.log(stdout);
+    console.log(stderr);
+    cb(error);
+  });
+});
+
+gulp.task('mac', cb => {
+  exec('electron-builder --mac', (error, stdout, stderr) => {
+    console.log(stdout);
+    console.log(stderr);
+    cb(error);
+  });
+});
+
 gulp.task('compile', gulp.series('copy', 'minify-js', 'minify-css'));
 gulp.task('all', gulp.series('compile', 'build'));
