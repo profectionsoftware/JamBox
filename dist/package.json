@@ -1,9 +1,17 @@
 {
+<<<<<<< Updated upstream
   "name": "violin-player",
   "productName": "Violin",
   "version": "3.1.1",
   "description": "A fast, lightweight, and minimalistic desktop music player.",
   "homepage": "https://violin-player.cc/",
+=======
+  "name": "jambox-player",
+  "productName": "JamBox",
+  "version": "1.0.0",
+  "description": "a fast, lightweight, and minimalistic desktop music player.",
+  "homepage": "https://jambox.profection.software",
+>>>>>>> Stashed changes
   "keywords": [
     "lightweight",
     "cross-platform",
